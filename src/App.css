@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+
+.app {
+    display: flex;
+    justify-content: center;
+    font: 18px Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search{
+    width: auto;
+}
+.searchHeader{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.usersList{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.usersInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.usersList img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 2px;
+    margin-right: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.userProfile * {
+    margin: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.userProfileTitle h2 {
+    display: flex;
+    justify-content: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userProfile img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;   
+}
+.userProfileInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.userProfileInfo * {
+margin-right: 20px;
+}
+.reposInfo{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
 }
