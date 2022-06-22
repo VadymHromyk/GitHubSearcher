@@ -82,4 +82,4 @@ function UserSmallProfile(user: GetUsersResponse) {
             </div>
         </div>
     );
-};
+};  
